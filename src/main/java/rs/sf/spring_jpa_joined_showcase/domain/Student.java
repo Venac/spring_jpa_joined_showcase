@@ -1,10 +1,8 @@
 package rs.sf.spring_jpa_joined_showcase.domain;
 
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
 @Entity
-@DiscriminatorValue("student")
 public class Student extends Person {
 
 	private String studentCardId;
